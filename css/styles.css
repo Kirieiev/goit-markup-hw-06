@@ -138,6 +138,7 @@ input {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   display: inline-block;
+  margin-right: 120px;
 }
 
 .header-logo-span {
@@ -223,8 +224,7 @@ input {
   }
 
   .mobile-link:hover,
-  .mobile-link:focus,
-  .mobile-link:active {
+  .mobile-link:focus {
     color: #404bbf;
   }
 
@@ -249,8 +249,7 @@ input {
   }
 
   .mobile-address-info:hover,
-  .mobile-address-info:focus,
-  .mobile-address-info:active {
+  .mobile-address-info:focus {
     color: #404bbf;
   }
 
@@ -280,11 +279,10 @@ input {
     fill: #f4f4fd;
   }
 
-  .mobile-social-link:hover,
-  .mobile-social-link:focus,
-  .mobile-social-link:active {
+  /* .mobile-social-link:hover,
+  .mobile-social-link:focus {
     background-color: #31d0aa;
-  }
+  } */
 }
 /* --------------- MOBILE MENU STYLES /--------------- */
 
@@ -352,8 +350,7 @@ input {
 }
 
 .hero-btn:hover,
-.hero-btn:focus,
-.hero-btn:active {
+.hero-btn:focus {
   background-color: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -455,8 +452,7 @@ input {
 }
 
 .social-link:hover,
-.social-link:focus,
-.social-link:active {
+.social-link:focus {
   background-color: #404bbf;
 }
 /* --------------- MOBILE TEAM STYLES /--------------- */
@@ -502,14 +498,12 @@ input {
 }
 
 .portfolio-list-item:hover .overlay-card,
-.portfolio-list-item:focus .overlay-card,
-.portfolio-list-item:active .overlay-card {
+.portfolio-list-item:focus .overlay-card {
   transform: translateY(0%);
 }
 
 .portfolio-list-item:hover,
-.portfolio-list-item:focus,
-.portfolio-list-item:active {
+.portfolio-list-item:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -596,8 +590,7 @@ input {
 }
 
 .footer-social-link:hover,
-.footer-social-link:focus,
-.footer-social-link:active {
+.footer-social-link:focus {
   background-color: #31d0aa;
 }
 
@@ -986,8 +979,7 @@ input {
   }
 
   .address-info:hover,
-  .address-info:focus,
-  .address-info:active {
+  .address-info:focus {
     color: #404bbf;
   }
   /* --------------- TABLET HEADER STYLES /--------------- */
@@ -1030,8 +1022,7 @@ input {
   }
 
   .hero-btn:hover,
-  .hero-btn:focus,
-  .hero-btn:active {
+  .hero-btn:focus {
     background-color: #404bbf;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   }
@@ -1146,10 +1137,6 @@ input {
   }
 
   /* --------------- DESKTOP HEADER STYLES --------------- */
-
-  .logo-link {
-    margin-right: 120px;
-  }
 
   .address-list {
     flex-direction: row;
